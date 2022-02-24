@@ -58,9 +58,7 @@ p {
     position: relative;
 }
 .logo {
-    position: absolute;
-    left: 0;
-    margin-left: 378px;
+    margin-right: 387px;
     display: flex;
     padding-left: 0;
     font-family: Oswald, sans-serif;
@@ -70,7 +68,6 @@ p {
     text-transform: uppercase;
     color: #333333;
 }
-
 .header_link {
     font-family: Montserrat, sans-serif;
     display: inline-block;
@@ -85,8 +82,6 @@ p {
 .header_link:hover {
     color: aqua;
 }
-
-
 /* section header */
 
 /* section hero */
@@ -439,40 +434,63 @@ p {
     height: 639px;
     background: #000000;
 }
-.footer_btn_2,
-.footer_btn_1,
-.footer_btn_3,
-.footer_btn_4 {
+.form {
     margin-left: 188px;
+}
+.footer_input_name {
     padding-left: 31px;
-    text-align: start;
-    height: 57px;
     width: 564px;
-    border: none;
-    font-family: Vollkorn, sans-serif;
-    font-style: italic;
+    height: 57px;
     font-weight: 400;
     font-size: 17px;
     line-height: 22px;
+    background: rgba(255, 255, 255, 0.18);
+}
+.footer_input_name::placeholder {
     color: #FFFFFF;
-
+    font-family: Vollkorn, serif;
 }
-.footer_btn_1 {
-    background: rgba(255, 255, 255, 0.18);
-}
-.footer_btn_2 {
-    background: rgba(255, 255, 255, 0.2);
-}
-.footer_btn_3 {
-    background: rgba(255, 255, 255, 0.18);
-}
-.footer_btn_4 {
-    height: 127px;
+.footer_input_email {
+    padding-left: 31px;
     width: 564px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
     background: rgba(255, 255, 255, 0.2);
+}
+.footer_input_email::placeholder {
+    color: #FFFFFF;
+    font-family: Vollkorn, serif;
+}
+.footer_input_number {
+    padding-left: 31px;
+    width: 564px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    background: rgba(255, 255, 255, 0.18);
+}
+.footer_input_number::placeholder {
+    color: #FFFFFF;
+    font-family: Vollkorn, serif;
+}
+.footer_input_proj {
+    padding-left: 31px;
+    width: 564px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.footer_input_proj::placeholder {
+    color: #FFFFFF;
+    font-family: Vollkorn, serif;
 }
 .footer_btn_5 {
-    margin: 22px 0 37px 390px;
+    margin: 22px 0 37px 200px;
     font-family: Vollkorn, sans-serif;
     font-weight: normal;
     font-size: 17px;

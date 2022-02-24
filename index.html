@@ -295,12 +295,18 @@
 </section>
  <section class="footer">
 <div class="container">
-    <button class="footer_btn_1">Name</button>
-    <button class="footer_btn_2">Email</button>
-    <button class="footer_btn_3">Budget</button>
-    <button class="footer_btn_4">Describe youre project...</button>
+    <form class="form">
+    <label class="footer_label" for="text"></label>
+    <input class="footer_input_name" id="text" placeholder="Name" type="text">
+    <label class="footer_label" for="email"></label>
+        <input class="footer_input_email" id="email" placeholder="Email" type="email">
+    <label class="footer_label" for="budget"></label>
+    <input class="footer_input_number" id="budget" placeholder="Budget" type="text">
+    <label class="footer_label" for="project"></label>
+    <input class="footer_input_proj" id="project" placeholder="Describe youre project..." type="text">
     <br>
     <button class="footer_btn_5">Send Message</button>
+    </form>
     <br>
     <img src="./images/footer_img.svg" alt="icon">
     <p class="footer_subtitle">Minimal Template made in Webflow. All rights reserved.</p>
